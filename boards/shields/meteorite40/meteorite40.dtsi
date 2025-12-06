@@ -17,7 +17,7 @@
 #define HALF_INPUT 50           // r=|x|/xs の xs（counts）。既定 50
 #define EXPONENT_TENTHS 10      // 指数 p を 0.1 分解能で指定（p*10、例: 15 は p=1.5）。既定 10（p=1.0）
 
-#define POLL_PERIOD_MS 20       // キースキャンのポーリング周期（ms）
+#define POLL_PERIOD_MS 5       // キースキャンのポーリング周期（ms）
 #define DEBOUNCE_MS 10           // デバウンス時間 (ms)
 
 &spi0 {
