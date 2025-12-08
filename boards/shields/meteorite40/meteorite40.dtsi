@@ -19,7 +19,7 @@
 
 #define POLL_PERIOD_MS 20       // キースキャンのポーリング周期（ms）
 #define DEBOUNCE_MS 10           // デバウンス時間 (ms)
-#define DEBOUNCE_PRESS_MS 10
+#define DEBOUNCE_PRESS_MS 20
 #define DEBOUNCE_RELEASE_MS 20
 
 &spi0 {
